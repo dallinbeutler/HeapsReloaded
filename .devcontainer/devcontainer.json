@@ -1,0 +1,51 @@
+{
+        "name": "heaps",
+        "build":{
+                "dockerfile": "Dockerfile"
+        },
+	"settings":{
+                "terminal.integrated.shell.linux": "/bin/bash",
+                // "editor.fontFamily": "Fira Code",
+                // "editor.fontLigatures": true
+                "liveServer.settings.ChromeDebuggingAttachment": true
+	},
+        "runArgs": [
+                // "-v", "${env:HOME}${env:USERPROFILE}/.ssh:/root/.ssh-localhost:ro",
+                // "-v", "${env:HOME}${env:USERPROFILE}/.credentials:/root/.credentials-localhost:ro",
+                // "-v", "${env:HOME}${env:USERPROFILE}/.gitconfig:/root/.git-localhost:ro"
+        ],
+	"extensions": [
+        // General Extensions
+        // "aaron-bond.better-comments",
+        // "coenraads.bracket-pair-colorizer-2",
+        // "alefragnani.bookmarks",
+        // "mizyind.darkpp-regular",
+        // "ms-azuretools.vscode-docker",
+        // "eamodio.gitlens",
+        // "sirtori.indenticator",
+        // "nickdemayo.vscode-json-editor",
+        // "yzhang.markdown-all-in-one",
+        // "pkief.material-icon-theme",
+        // "equinusocio.vsc-material-theme",
+        // "ibm.output-colorizer",
+        // "ryu1kn.partial-diff",
+        // "redhat.vscode-yaml",
+        // "wmaurer.change-case",
+        // "streetsidesoftware.code-spell-checker",
+        // "kkapsner.duplicateselection",
+        // "letrieu.expand-region",
+        // "geddski.macros",
+        // "bigous.vscode-multi-line-tricks",
+        // "philsinatra.nested-comments",
+        // "christian-kohler.path-intellisense",
+        // "alefragnani.project-manager",
+        //Language Specific Extensions
+        "vshaxe.haxe-extension-pack",
+        "msjsdiag.debugger-for-chrome",
+        "ritwickdey.liveserver"
+
+        ],
+        "forwardPorts": [5500,9222]
+        
+        // "postCreateCommand": ""
+}
